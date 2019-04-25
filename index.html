@@ -11,7 +11,9 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Arimo|Nanum+Gothic" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Acme|Arimo|Kanit|Nanum+Gothic" rel="stylesheet">
 
 
 </head>
@@ -20,7 +22,7 @@
 
   <nav class="navbar sticky-top">
     <div class="container justify-content-space-between" id="navItems">
-      <h2 class="name">Mark Silva</h2>
+      <a href="assets/images/Resume - Mark Silva.pdf" target="_blank"><h2 class="name">Mark Silva</h2></a> 
       <ul class="nav">
         <li class="nav-item link-border">
           <a class="nav-link" href="#about">About</a>
@@ -43,7 +45,7 @@
           <div class="row">
             <div class="col-2"></div>
             <div class="col-8">
-              <br><br><br><br>
+
               <h1 class="intro">Hi, my name is Mark.</h1>
               <h1 class="intro">I am a full-stack web developer.</h1>
             </div>
@@ -79,9 +81,9 @@
           <div class="col-1"></div>
           <div class="col-10">
             <div class="d-flex justify-content-center">
-              <p>Languages I Speak</p>
+              <p class="blurb">Languages I Speak</p>
             </div>
-            <br>
+            <!-- <br> -->
             <div class="d-flex justify-content-between flex-wrap" id="skills">
               <img class="logo" src="assets/images/html.png" alt="html logo">
               <img class="logo" src="assets/images/css.png" alt="css logo">
@@ -92,7 +94,7 @@
             </div>
             <br>
             <div class="d-flex justify-content-center">
-              <p>Scroll down to check out my work.</p>
+              <p class="blurb">Keep going to check out my work</p>
             </div>
           </div>
           <div class="col-1"></div>
@@ -108,8 +110,8 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-1"></div>
-        <div class="col-10 d-flex justify-content-around">
+        <div class="col-2"></div>
+        <div class="col-8 d-flex justify-content-around">
 
           <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
             <div class="flipper">
@@ -120,7 +122,10 @@
               <div class="back">
                 <!-- back content -->
                 <h3>Event Hunter</h3>
-                <p>Location based event finder utilizing JavaScript, jQuery, Firebase, AJAX, and the TicketMaster API.</p>
+                <p>Location based event finder utilizing JavaScript, jQuery, Firebase, AJAX, and the TicketMaster API.
+                </p>
+                <a href="https://pironj.github.io/Group-Project-1/" class="btn btn-primary btn-lg" target="_blank">go to
+                  website</a>
               </div>
             </div>
           </div>
@@ -135,10 +140,11 @@
                 <!-- back content -->
                 <h3>GoT Trivia</h3>
                 <p>Test your knowledge of the Seven Kingdoms with GoT Trivia. Built with JavaScript and jQuery.</p>
+                <a href="https://marcussilvus.github.io/TriviaGame/" class="btn btn-primary btn-lg" target="_blank">go
+                  to website</a>
               </div>
             </div>
           </div>
-
 
           <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
             <div class="flipper">
@@ -150,9 +156,22 @@
                 <!-- back content -->
                 <h3>Hangman</h3>
                 <p>JavaScript-based game testing the user on their knowledge of Asian countries.</p>
+                <a href="https://marcussilvus.github.io/word_guess_game/" class="btn btn-primary btn-lg"
+                  target="_blank">go to website</a>
               </div>
             </div>
           </div>
+
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8 d-flex justify-content-around">
 
           <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
             <div class="flipper">
@@ -164,6 +183,8 @@
                 <!-- back content -->
                 <h3>Crystal Counter</h3>
                 <p>A game of luck and logic built with JavaScript.</p>
+                <a href="https://marcussilvus.github.io/unit_4_game/" class="btn btn-primary btn-lg" target="_blank">go
+                  to website</a>
               </div>
             </div>
           </div>
@@ -178,6 +199,8 @@
                 <!-- back content -->
                 <h3>Gif Party</h3>
                 <p>Gif generator working with JavaScript, jQuery, AJAX, and the GIPHY API.</p>
+                <a href="https://marcussilvus.github.io/gif_party/" class="btn btn-primary btn-lg" target="_blank">go to
+                  website</a>
               </div>
             </div>
           </div>
@@ -189,7 +212,10 @@
     <br>
 
     <div class="d-flex justify-content-center">
-      <p>Scroll down to check out my work.</p>
+      <p class="blurb">Like what you see?</p>
+    </div>
+    <div class="d-flex justify-content-center">
+      <p class="blurb">Scroll down and drop me a line!</p>
     </div>
   </div>
   <div class="col-1"></div>
@@ -203,33 +229,19 @@
   <br>
   <h1 class="headers" id="contact">Contact</h1>
   <br>
+
   <div class="container content">
     <div class="row">
       <div class="col-3"></div>
-      <div class="col-6">
-        <div class="row">
-          <div class="col-md-12">
-            <form>
-              <div class="form-group">
-                <label for="InputName1">Name</label>
-                <input type="name" class="form-control" id="InputName1" placeholder="John Smith">
-              </div>
-              <div class="form-group">
-                <label for="InputEmail1">Email</label>
-                <input type="email" class="form-control" id="InputEmail1" placeholder="example@gmail.com">
-              </div>
-              <div class="form-group">
-                <label for="Textarea1">Message</label>
-                <textarea class="form-control" id="Textarea1" rows="8"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-          </div>
-        </div>
+      <div class="col-6 d-flex justify-content-center justify-content-around">
+        <a href="https://github.com/MarcusSilvus" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="mailto:mark.allen.silva@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/mark-silva-29a7a31a/ " target="_blank"><i class="fab fa-linkedin"></i></a>
       </div>
       <div class="col-3"></div>
     </div>
   </div>
+
 
   <footer>
     <div class="footbar">
