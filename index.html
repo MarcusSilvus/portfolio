@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Arimo|Nanum+Gothic" rel="stylesheet">
 
 
 </head>
@@ -35,134 +36,208 @@
 
   <div class="container">
 
+    <!-- About Section Begin -->
     <div id="about">
       <div class="banner">
+        <div class="containter">
+          <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+              <br><br><br><br>
+              <h1 class="intro">Hi, my name is Mark.</h1>
+              <h1 class="intro">I am a full-stack web developer.</h1>
+            </div>
+            <div class="col-2"></div>
+          </div>
+        </div>
+      </div>
+      <!-- About Section End -->
+
+
+      <br>
+      <h1 class="headers">About</h1>
+
+
+      <div class="d-flex justify-content-center">
         <img id="profilePic" src="assets/images/simon.jpg" alt="profile">
       </div>
+      <br>
+      <div class="containter">
+        <div class="row">
+          <div class="col-3"></div>
+          <div class="col-6">
+            <p>I am a Seattle-based developer focused on creating clean, responsive, and intuitive web-based
+              applications.</p>
+            <br>
+          </div>
+          <div class="col-3"></div>
+        </div>
+      </div>
 
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium et eum cum sequi, illo natus minima
-        molestias nulla laboriosam voluptas suscipit id reiciendis sed asperiores corporis velit voluptatum dolore
-        quaerat.</p>
+      <div class="containter">
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col-10">
+            <div class="d-flex justify-content-center">
+              <p>Languages I Speak</p>
+            </div>
+            <br>
+            <div class="d-flex justify-content-between flex-wrap" id="skills">
+              <img class="logo" src="assets/images/html.png" alt="html logo">
+              <img class="logo" src="assets/images/css.png" alt="css logo">
+              <img class="logo" src="assets/images/js.png" alt="javascript logo">
+              <img class="logoSq" src="assets/images/bootstrap.png" alt="bootstrap logo">
+              <img class="logoSq" src="assets/images/jquery.png" alt="jquery logo">
+              <img class="logoSq" src="assets/images/node.png" alt="nodeJS logo">
+            </div>
+            <br>
+            <div class="d-flex justify-content-center">
+              <p>Scroll down to check out my work.</p>
+            </div>
+          </div>
+          <div class="col-1"></div>
+        </div>
+      </div>
     </div>
 
     <div class="space"></div>
 
+    <br>
+    <h1 class="headers" id="portfolio">Portfolio</h1>
+    <br>
+
     <div class="container">
       <div class="row">
         <div class="col-1"></div>
-        <div class="col-10">
-          <div id="portfolio">
-            <div class="card-deck">
-              <div class="card">
-                <img src="assets/images/event.jpg" class="card-img-top portImg" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Event Hunter</h5>
-                  <p class="card-text">This is a widt longer.</p>
-                </div>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-                <!-- <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </div> -->
+        <div class="col-10 d-flex justify-content-around">
+
+          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div class="front">
+                <!-- front content -->
+                <img src="assets/images/event.jpg" class="card-img-top portImg" alt="event hunter">
               </div>
-              <div class="card">
-                <img src="assets/images/got.jpg" class="card-img-top portImg" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Game of Thrones Trivia</h5>
-                  <p class="card-text">This is a wttle bit longer.</p>
-                </div>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-                <!-- <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </div> -->
-              </div>
-              <div class="card">
-                <img src="assets/images/hangman.jpg" class="card-img-top portI" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Hangman</h5>
-                  <p class="card-text">This card has s additional content.
-                  </p>
-                </div>
-                <!-- <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </div> -->
-              </div>
-              <div class="card">
-                <img src="assets/images/crystal.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Crystal Counter</h5>
-                  <p class="card-text">This is a wider .</p>
-                </div>
-                <!-- <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </div> -->
-              </div>
-              <div class="card">
-                <img src="assets/images/gif.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Gif Generator</h5>
-                  <p class="card-text">This is a wider card with .</p>
-                </div>
-                <!-- <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </div> -->
+              <div class="back">
+                <!-- back content -->
+                <h3>Event Hunter</h3>
+                <p>Location based event finder utilizing JavaScript, jQuery, Firebase, AJAX, and the TicketMaster API.</p>
               </div>
             </div>
           </div>
+
+          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div class="front">
+                <!-- front content -->
+                <img src="assets/images/got.jpg" class="card-img-top portImg" alt="game of thrones">
+              </div>
+              <div class="back">
+                <!-- back content -->
+                <h3>GoT Trivia</h3>
+                <p>Test your knowledge of the Seven Kingdoms with GoT Trivia. Built with JavaScript and jQuery.</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div class="front">
+                <!-- front content -->
+                <img src="assets/images/hangman.jpg" class="card-img-top portImg" alt="hangman">
+              </div>
+              <div class="back">
+                <!-- back content -->
+                <h3>Hangman</h3>
+                <p>JavaScript-based game testing the user on their knowledge of Asian countries.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div class="front">
+                <!-- front content -->
+                <img src="assets/images/crystal.jpg" class="card-img-top portImg" alt="crystal counter">
+              </div>
+              <div class="back">
+                <!-- back content -->
+                <h3>Crystal Counter</h3>
+                <p>A game of luck and logic built with JavaScript.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div class="front">
+                <!-- front content -->
+                <img src="assets/images/gif.jpg" class="card-img-top portImg" alt="gif party">
+              </div>
+              <div class="back">
+                <!-- back content -->
+                <h3>Gif Party</h3>
+                <p>Gif generator working with JavaScript, jQuery, AJAX, and the GIPHY API.</p>
+              </div>
+            </div>
+          </div>
+
         </div>
-        <div class="col-1"></div>
       </div>
-
     </div>
 
-    <div class="d-flex justify-content-between flex-wrap" id="skills">
-      <img class="logo" src="assets/images/html.png" alt="html logo">
-      <img class="logo" src="assets/images/css.png" alt="css logo">
-      <img class="logo" src="assets/images/js.png" alt="javascript logo">
-      <img class="logoSq" src="assets/images/bootstrap.png" alt="bootstrap logo">
-      <img class="logoSq" src="assets/images/jquery.png" alt="jquery logo">
-      <img class="logoSq" src="assets/images/node.png" alt="nodeJS logo">
-      <i class="fab fa-instagram"></i>
+    <br>
+
+    <div class="d-flex justify-content-center">
+      <p>Scroll down to check out my work.</p>
     </div>
+  </div>
+  <div class="col-1"></div>
+  </div>
+  </div>
 
-<div class="space"></div>
 
-    <div class="container content" id="contact">
+
+  <div class="space"></div>
+
+  <br>
+  <h1 class="headers" id="contact">Contact</h1>
+  <br>
+  <div class="container content">
+    <div class="row">
+      <div class="col-3"></div>
+      <div class="col-6">
         <div class="row">
-          <div class="col-3"></div>
-          <div class="col-6">
-            <h1>Contact</h1>
-            <div class="row">
-              <div class="col-md-12">
-                <form>
-                  <div class="form-group">
-                    <label for="InputName1">Name</label>
-                    <input type="name" class="form-control" id="InputName1" 
-                      placeholder="John Smith">
-                  </div>
-                  <div class="form-group">
-                    <label for="InputEmail1">Email</label>
-                    <input type="email" class="form-control" id="InputEmail1" placeholder="example@gmail.com">
-                  </div>
-                  <div class="form-group">
-                    <label for="Textarea1">Message</label>
-                    <textarea class="form-control" id="Textarea1" rows="8"></textarea>
-                  </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
+          <div class="col-md-12">
+            <form>
+              <div class="form-group">
+                <label for="InputName1">Name</label>
+                <input type="name" class="form-control" id="InputName1" placeholder="John Smith">
               </div>
-            </div>
+              <div class="form-group">
+                <label for="InputEmail1">Email</label>
+                <input type="email" class="form-control" id="InputEmail1" placeholder="example@gmail.com">
+              </div>
+              <div class="form-group">
+                <label for="Textarea1">Message</label>
+                <textarea class="form-control" id="Textarea1" rows="8"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
           </div>
-          <div class="col-3"></div>
         </div>
       </div>
-    
-      <footer>
-          <div class="footbar">
-            <div class="copyright">
-              <p class="copy">Copyright &copy; 2019 </p>
-            </div>
-          </div>
-        </footer>
+      <div class="col-3"></div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footbar">
+      <div class="copyright">
+        <p class="copy">Copyright &copy; 2019 </p>
+      </div>
+    </div>
+  </footer>
 
   </div>
 

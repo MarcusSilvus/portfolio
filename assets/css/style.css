@@ -1,3 +1,5 @@
+/* font-family: 'Arimo', sans-serif; */
+
 .container{
   max-width: 100%;
   margin: 0 auto;
@@ -47,13 +49,23 @@ a:hover {
 /* Nav Styles End */
 
 #profilePic {
-  position: relative;
+  /* position: relative;
   top: 10px;
-  left: 50px;
+  left: 50px; */
   border-radius: 50%;
 }
 
+.intro {
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #ffffff;
+  font-size: 68px;
+}
 
+.headers {
+  font-family: 'Arimo', sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
 
 h2 {
   /* background-color: #4aaaa5; */
@@ -63,31 +75,31 @@ h2 {
 }
 
 .name {
-  position: relative;
-  left: 60px;
+  /* position: relative;
+  left: 60px; */
 }
 
 .logo {
-  width: 119px;
-  height: 170px;
+  width: 79px;
+  height: 113px;
 }
 .logoSq {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
 }
 
 /* .portImg {
   height: 320px;
   width: 320px;
-} */
+}  */
 
 .content {
-  background-color: #ffffff;
+  /* background-color: #ffffff;
   border-style: solid;
   border-width: 1px;
   border-color: #dddddd;
   padding: 20px;
-  margin-bottom: 70px;
+  margin-bottom: 70px; */
 }
 
 /* Footer Styles Begin */
@@ -126,6 +138,60 @@ h2 {
   background-image: linear-gradient(#ffffff, black);
   /* background-color: black; */
 }
+
+
+/* Card flip playground */
+/* entire container, keeps perspective */
+.flip-container {
+  perspective: 1000px;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	/* width: 320px;
+  height: 480px; */
+  width: 200px;
+	height: 200px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+  transform: rotateY(180deg);
+  background-image: linear-gradient(#ffffff, black);
+  /* background-color: #87B3ED; */
+  font-size: 14px;
+  text-align: center;
+}
+
+
+
 
 @media (max-width: 640px) { 
   h2 {
