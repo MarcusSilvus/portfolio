@@ -68,7 +68,6 @@ a:hover {
 }
 
 h2 {
-  /* background-color: #4aaaa5; */
   color: #cccccc;
   padding: 10px 20px;
   margin: 0px;
@@ -84,11 +83,6 @@ h3 {
 
 .blurb {
   font-family: 'Kanit', sans-serif;
-}
-
-.name {
-  /* position: relative;
-  left: 60px; */
 }
 
 .logo {
@@ -116,9 +110,12 @@ i:hover {
   color: #777777
 }
 
-/* button {
-
-} */
+.btn {
+  /* background-color: black; */
+  height: 25px;
+  font-size: 12px;
+  padding: 5px;
+}
 
 .end {
   font-size: 18px;
@@ -230,10 +227,6 @@ i:hover {
   .intro {
     top: 60px;
     font-size: 60px;
-  }
-
-  .name {
-    position: static;
   }
 
   .nav {
