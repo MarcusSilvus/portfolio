@@ -43,6 +43,10 @@
   margin-right: 5px;
 } 
 
+.portImg {
+  padding: 5px;
+}
+
 a:hover {
   text-decoration: none;
   color: #777777
@@ -121,6 +125,11 @@ i:hover {
   font-size: 18px;
 }
 
+.cardFlex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /* Footer Styles Begin */
 .footbar {
   width: 100%;
@@ -187,7 +196,6 @@ i:hover {
 /* hide back of pane during swap */
 .front, .back {
 	backface-visibility: hidden;
-
 	position: absolute;
 	top: 0;
 	left: 0;
