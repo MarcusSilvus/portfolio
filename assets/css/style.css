@@ -161,7 +161,7 @@ i:hover {
   background: no-repeat center;
   background-size: cover;
   background-attachment: fixed;
-  height: 150px;
+  height: 100px;
   /* background-image: linear-gradient(black, #ffffff); */
   background-image: linear-gradient(#ffffff, black);
   /* background-color: black; */
